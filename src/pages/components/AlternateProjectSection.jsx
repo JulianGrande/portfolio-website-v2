@@ -49,19 +49,19 @@ const AlternateProjectSection = () => {
                     return (
 
                         <div key={idx}> 
-                            <div className="flex flex-col md:flex-row md:space-x-12">
-                                <div className="md:w-1/2">
+                            <div className="flex flex-col space-x-10 md:flex-row md:space-x-12">
+                                <div className="md:w-1/2 px-20">
                                     <Link href={project.github}>
-                                        <Image src={placeholderpic} alt="" width={725} height={725} className="rounded-xl shadow-xl hover:opacity-70"></Image>
+                                        <Image src={placeholderpic} alt="" width={1000} height={1000} className="rounded-xl shadow-xl hover:opacity-70"></Image>
                                     </Link>
                                 </div>
 
-                                <div className="mt-8 md:w-1/2">
-                                    <h1 className="text-4xl font-bold mb-6">
+                                <div className="mt-8 md:w-1/2 text-[#222525]">
+                                    <h1 className="text-4xl font-bold mb-6 font-[Helvetica]">
                                         {project.name}
                                     </h1>
 
-                                    <p className="text-xl leading-7 mb-4 text-neutral-600">
+                                    <p className="text-xl leading-7 mb-4 font-[Arial]">
                                         {project.description}
                                     </p>
 

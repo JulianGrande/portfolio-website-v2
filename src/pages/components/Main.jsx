@@ -13,7 +13,7 @@ const Main = () => {
                     <h1 className="py-4 text-[#232323] text-6xl font-[Helvetica]">
                         Hi, I&apos;m <span className="text-[#f45d48]">Julian</span>
                     </h1>
-                    <h2 className="py-2 text-[#222525]">
+                    <h2 className="py-2 text-[#222525] font-[Arial]">
                         Software Engineer
                     </h2>
                     <div className="flex items-center justify-between max-w-[330px] m-auto py-4">
