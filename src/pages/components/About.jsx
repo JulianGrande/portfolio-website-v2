@@ -7,13 +7,14 @@ import Timeline from './Timeline';
 const About = () => {
     return (
 
-        <div id='about' className="w-full md:h-screen p-2 py-16 items-center flex">
+        <div id='about' className="w-full md:h-screen p-2 py-16 items-center flex h-screen">
             <div className="max-w-[1240px] m-auto md:grid grid-cols-3 gap-8">
                 <div className="col-span-2 text-center">
                     <h2 className="uppercase text-2xl tracking-widest text-[#f45d48] font-[Helvetica]">
                         About
                         <hr className="w-6 h-1 mx-auto my-4 bg-[#078080] border-0 rounded"></hr>
                     </h2>
+                    
 
                     <p className="py-2 text-[#222525] text-left font-[Arial]">
                         Hello! I'm Julian Grande, aspiring software engineer currently pursuing my degree at Rutgers University, set to graduate in 2024. 
