@@ -1,8 +1,9 @@
 import React from "react";
 import Image from "next/image";
 import Link from "next/Link";
+import SlideUp from "./Slideup";
 import { BsGithub } from "react-icons/bs";
-import placeholderpic from "../../../public/my_images/cropped_spec_pizza.png"
+import placeholderpic from "../../../public/my_images/test_cropped_plato.png"
 
 const projects = [
 
@@ -49,32 +50,34 @@ const AlternateProjectSection = () => {
                     return (
 
                         <div key={idx}> 
-                            <div className="flex flex-col space-x-10 md:flex-row md:space-x-12">
-                                <div className="md:w-1/2 px-20">
-                                    <Link href={project.github}>
-                                        <Image src={placeholderpic} alt="" width={1000} height={1000} className="rounded-xl shadow-xl hover:opacity-70"></Image>
-                                    </Link>
-                                </div>
-
-                                <div className="mt-8 md:w-1/2 text-[#222525]">
-                                    <h1 className="text-4xl font-bold mb-6 font-[Helvetica]">
-                                        {project.name}
-                                    </h1>
-
-                                    <p className="text-xl leading-7 mb-4 font-[Arial]">
-                                        {project.description}
-                                    </p>
-
-                                    <div className="flex flex-row align-bottom space-x-4">
+                            <SlideUp offset="-300px 0px -300px 0px">
+                                <div className="flex flex-col animate-slideUpCubiBezier animation-delay-2 md:flex-row md:space-x-12">
+                                    <div className="md:w-1/2 p-2">
                                         <Link href={project.github} target="_blank">
-                                            <BsGithub size={30} className="hover:-translate-y-1 transition-transform cursor-pointer"></BsGithub>
+                                            <Image src={project.image} alt="" height={750} width={750}  className="rounded-xl shadow-xl hover:opacity-70 rouneded border-2 border-[#f45d48]"></Image>
                                         </Link>
                                     </div>
+
+                                    <div className="mt-8 md:w-1/2">
+                                        <h1 className="text-4xl font-bold mb-6 font-{Helvetica} text-[#222525]">
+                                            {project.name}
+                                        </h1>
+
+                                        <p className="text-xl leading-7 mb-4 text-[#222525] font-{Arial}">
+                                            {project.description}
+                                        </p>
+
+                                        <div className="flex flex-row align-bottom space-x-4">
+                                            <Link href={project.github} target="_blank">
+                                                <BsGithub size={30} className="hover:-translate-y-1 transition-transform cursor-pointer" />
+                                            </Link>
+                                        </div>
+                                    </div>
                                 </div>
-                            </div>
+                            </SlideUp>
                         </div>
 
-                    )
+                    );
                 })}
             </div>
         </div>
