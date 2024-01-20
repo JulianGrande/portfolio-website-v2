@@ -13,6 +13,7 @@ const projects = [
         description: "A library in C that allows for multithreading in the user space utilizing a FIFO scheduling policy",
         image: placeholderpic,
         github: "https://github.com/JulianGrande/RefactoredTL",
+        readMe: "https://github.com/JulianGrande/RefactoredTL/blob/master/README.md",
         
     },
 
@@ -21,7 +22,8 @@ const projects = [
         name: "Android Pizzeria App",
         description: "Android app for pizza order management, implemented using Android Studio, Gradle, and Java",
         image: placeholderpic,
-        github: "https://github.com/JulianGrande/RefactoredTL", 
+        github: "https://github.com/JulianGrande/RefactoredTL",
+        readMe: "https://github.com/JulianGrande/RefactoredTL/blob/master/README.md",
         
     },
 
@@ -31,6 +33,7 @@ const projects = [
         description: "TBA",
         image: placeholderpic,
         github: "https://github.com/JulianGrande/RefactoredTL",
+        readMe: "https://github.com/JulianGrande/RefactoredTL/blob/master/README.md",
 
     },
 
@@ -51,7 +54,7 @@ const AlternateProjectSection = () => {
                 <SlideUp offset="-300px 0px -300px 0px">
                   <div className="flex flex-col animate-slideUpCubiBezier animation-delay-2 md:flex-row md:space-x-12">
                     <div className="md:w-1/2">
-                      <Link href={project.github}>
+                      <Link href={project.readMe}>
                         <Image
                           src={project.image}
                           alt=""
