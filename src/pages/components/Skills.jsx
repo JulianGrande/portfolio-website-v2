@@ -24,7 +24,7 @@ const skills = [
 const Skills = () => {
     return (
 
-        <div id='skills' className="my-12 pb-12 md:pt-16 md:pb-48 h-screen">
+        <div id='skills' className="h-screen w-full p-2 py-16">
             <div className="flex flex-col space-y-10 items-stretch justify-center align-top md:space-x-10 md:space-y-0 md:p-4 md:flex-row md:text-left">
                 <div className="text-center md:w-1/2 md:text-left">
                     <h2 className="text-2xl tracking-widest uppercase text-[#f45d48] font-[Helvetica] text-center">
