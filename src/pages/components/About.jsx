@@ -1,8 +1,6 @@
 import React from 'react';
 import Image from 'next/image';
 import placeholder from '../../../public/my_images/Specialty_Pizza.jpg'
-import Skills from './Skills';
-import Timeline from './Timeline';
 
 const About = () => {
     return (

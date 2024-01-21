@@ -43,8 +43,12 @@ const Skills = () => {
                     </div>
                 </div>
             </div>
-            <Timeline />
+
+            <div className="md:hidden lg:inline">
+                <Timeline />
+            </div>
         </div>
+        
 
     );
 };

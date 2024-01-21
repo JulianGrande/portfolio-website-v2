@@ -5,6 +5,20 @@ import SlideUp from "./Slideup";
 import { BsGithub } from "react-icons/bs";
 import placeholderpic from "../../../public/my_images/cropped_spec_pizza.png"
 
+{/** third project not yet rdy to share
+
+  {
+
+        name: "TBA",
+        description: "TBA",
+        image: placeholderpic,
+        github: "https://github.com/JulianGrande/RefactoredTL",
+        readMe: "https://github.com/JulianGrande/RefactoredTL/blob/master/README.md",
+
+    },
+
+ */}
+
 const projects = [
 
     {
@@ -22,27 +36,18 @@ const projects = [
         name: "Android Pizzeria App",
         description: "Android app for pizza order management, implemented using Android Studio, Gradle, and Java",
         image: placeholderpic,
-        github: "https://github.com/JulianGrande/RefactoredTL",
+        github: "https://github.com/JulianGrande/Android-Pizza-Pal",
         readMe: "https://github.com/JulianGrande/RefactoredTL/blob/master/README.md",
         
     },
 
-    {
-
-        name: "TBA",
-        description: "TBA",
-        image: placeholderpic,
-        github: "https://github.com/JulianGrande/RefactoredTL",
-        readMe: "https://github.com/JulianGrande/RefactoredTL/blob/master/README.md",
-
-    },
 
 ]
 
 const AlternateProjectSection = () => {
     return (
-      <section id="projects">
-        <h2 className="my-10 text-center font-bold text-3xl font-[Helvetica] text-[#f45d48]">
+      <section id="projects" className="w-full p-2 py-16">
+        <h2 className="my-10 text-center uppercase font-bold text-3xl font-[Helvetica] text-[#f45d48]">
           Projects
           <hr className="w-6 h-1 mx-auto my-4 bg-[#078080] border-0 rounded"></hr>
         </h2>

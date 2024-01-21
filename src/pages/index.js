@@ -1,7 +1,6 @@
 import Head from "next/head";
 import Main from "./components/Main";
 import About from "./components/About";
-import ProjectCards from "./components/ProjectCards";
 import Footer from "./components/Footer";
 import Skills from "./components/Skills";
 import AlternateProjectSection from "./components/AlternateProjectSection";
@@ -18,7 +17,7 @@ export default function Home() {
           <Main />
         </div>
 
-        <div className="bg-[#fffffe]">
+        <div className="bg-[#f2f5f8]">
           <About />
         </div>
 
@@ -26,7 +25,7 @@ export default function Home() {
           <Skills />
         </div>
 
-        <div className="bg-[#fffffe]">
+        <div className="bg-[#f2f5f8]">
           {/* <ProjectCards /> */}
           <AlternateProjectSection />
         </div>
