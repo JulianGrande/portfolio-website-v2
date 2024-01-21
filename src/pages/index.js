@@ -4,6 +4,7 @@ import About from "./components/About";
 import Footer from "./components/Footer";
 import Skills from "./components/Skills";
 import AlternateProjectSection from "./components/AlternateProjectSection";
+import favicon from "../../public/icon.ico";
 
 export default function Home() {
   return (
@@ -11,6 +12,7 @@ export default function Home() {
         <Head>
           <title>Julian Grande | Software Engineer</title>
           <meta name="description" content="Julian Grande's Portfolio Website"></meta>
+          <link rel="icon" href={favicon} sizes="any"></link>
         </Head>
 
         <div className="bg-[#f8f5f2]">

@@ -33,7 +33,9 @@ const Navbar = () => {
             <div className="flex justify-between items-center w-full h-full px-2 2xl:px-16">
                 {/* forces alignment of links to the far right */}
                 <Link href="/">
-                        <p className="cursor-pointer text-2xl text-bold text-[#f45d48]">*</p> {/* place holder */}
+                        <p className="cursor-pointer text-2xl text-bold text-[#f45d48]">*</p> 
+                        {/*place holder*/}
+                        {/* <Image href="../../public/my_images/icon.png" size="small"></Image> */}
                 </Link>
                 <div>
                     <ul style={{ color: `${linkColor}` }} className="hidden md:flex">
