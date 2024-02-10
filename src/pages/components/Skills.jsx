@@ -27,7 +27,7 @@ const Skills = () => {
         <div id='skills' className="h-screen w-full p-2 py-16">
             <div className="flex flex-col space-y-10 items-stretch justify-center align-top md:space-x-10 md:space-y-0 md:p-4 md:flex-row md:text-left">
                 <div className="text-center md:w-1/2 md:text-left">
-                    <h2 className="text-2xl tracking-widest uppercase text-[#f45d48] font-[Helvetica] text-center">
+                    <h2 className="text-3xl tracking-widest uppercase text-[#f45d48] font-[Helvetica] text-center">
                         Skills
                         <hr className="w-6 h-1 mx-auto my-4 bg-[#078080] border-0 rounded"></hr>
                     </h2>
