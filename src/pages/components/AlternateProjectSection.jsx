@@ -4,6 +4,7 @@ import Link from "next/Link";
 import SlideUp from "./Slideup";
 import { BsGithub } from "react-icons/bs";
 import placeholderpic from "../../../public/my_images/cropped_spec_pizza.png"
+import threadpic from "../../../public/my_images/thread_img_cropped.png"
 
 {/** third project not yet rdy to share
 
@@ -25,7 +26,7 @@ const projects = [
 
         name: "User Level Threading Library",
         description: "A library in C that allows for multithreading in the user space utilizing a FIFO scheduling policy",
-        image: placeholderpic,
+        image: threadpic,
         github: "https://github.com/JulianGrande/RefactoredTL",
         readMe: "https://github.com/JulianGrande/RefactoredTL/blob/master/README.md",
         
